@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---tailwind css link-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!----css tailwind link-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            100: '#e0e7ff',
+                            200: '#c7d2fe',
+                            300: '#a5b4fc',
+                            400: '#818cf8',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                            800: '#3730a3',
+                            900: '#312e81'
+                        }
+                    },
+                    boxshadow: {
+                        soft: '0 10px 30px rgba(0 ,0, 0, 0.8)',
+                    }
+                }
+            }
+        }
+    </script>
+
+
+    <!---icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="bg-white text-slate-800">
+    <!--o index-->
+    <div class="bg-slate-900 text-white text-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-2 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, inventore.
+
+        </div>
+
+    </div>
+    <!---header-->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <a href="#" class="flex items-center gap-2 font-extrabold text-xl">
+                    <span
+                        class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600 text-white">T</span>TAILWIND
+                    12 UI
+                </a>
+                <nav class="hidden md:flex items-center gap-8 font-medium">
+                    <a href="#" class="hover:text-brand-600">Features</a>
+                    <a href="#" class="hover:text-brand-600">Stats</a>
+                    <a href="#" class="hover:text-brand-600">Services</a>
+                    <a href="#" class="hover:text-brand-600">Gallery</a>
+                    <a href="#" class="hover:text-brand-600">Pricing</a>
+                    <a href="#" class="hover:text-brand-600">Pricing</a>
+
+                </nav>
+                <div class="hidden md:flex items-center gap-3">
+                    <a class="px-3 py-3 rounded-lg border border-slate-200 hover:border-brand-600" href="#">Sign In</a>
+
+                    <a class="px-4 py-2 rounded-lg bg-brand-600 text-white hover:border-brand-700" href="#">Get
+                        Started</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+    <!---second part-->
+    <div class="absolute inset-0 -z-10">
+        <img src="./img1.avif" alt="hero" class="h-full w-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-white/90"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-28 lg:py-36">
+            <div class="max-w-3xl text-white">
+                <p class="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs">New . v3.0
+                    released</p>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight"></h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </section> -->
+
+
+    <section class="relative overflow-hidden">
+        <!-- Background Image + Overlay -->
+        <div class="absolute inset-0 -z-10">
+            <img src="./img1.avif" alt="hero" class="h-full w-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-white/90"></div>
+        </div>
+
+        <!-- Foreground Content -->
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-28 lg:py-36">
+            <div class="max-w-3xl text-white">
+                <p class="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs">
+                    New · v3.0 released
+                </p>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+                    Design faster with a beautiful,responsive tailwind ui kit
+                </h1>
+
+                <p class="mt-5 text-lg text-white/90">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ullam.
+
+                </p>
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <a href="#pricing"
+                        class="px-5 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold shadow-soft">Buy
+                        Template</a>
+
+                    <a href="#features"
+                        class="px-5 py-3 rounded-xl bg-white/80 text-slate-900 hover:bg-white text-white font-semibold">See
+                        Features</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---third part-->
+    <section id="features" class="py-16 sm:py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl text-center mx-auto mb-12">
+                <h2 class="text-3xl sm:text-4xl font-bold"> Packed with Practice</h2>
+                <p class="text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, expedita
+                    saepe nulla aspernatur
+                    fugit asperiores tenetur enim ullam aliquam inventore, tempore eligendi? Exercitationem quas culpa
+                    vero beatae consectetur sit sunt!</p>
+
+
+            </div>
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!---card-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">1
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Headless and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+                <!---card 2-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">2
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Responsive and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+
+                <!--card-3-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">3
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Modern and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+
+                <!---card-4-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">4
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Componenetsize and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+
+                <!---card-5-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">5
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Utility and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+
+                <!---card-6-->
+                <div class="rounded-2xl border border-slate-200 p-6 hover:shadow-soft transition-show">
+                    <div class="h-12 w-12 rounded-xl bg-brand-100 text-brand-700 grid place-items-center mb-4">6
+
+                    </div>
+                    <h3 class="font-semibold text-lg">Dark Mode and Accessible</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+                        nobis.</p>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!---Fourth part-->
+    <section id="stats" class="py-12 bg-slate-50 border-y border-slate-200/70">
+        <div class="container mx-auto px-4 sm:px-6 lh:py-8">
+            <div class="grid gap-8 md:grid-cols-4 text-center">
+                <div>
+                    <div class="text-3xl font-extrabold">
+                        12k+
+                    </div>
+                    <p class="text-slate-600">Happy Users</p>
+                </div>
+
+                <div>
+                    <div class="text-3xl font-extrabold">
+                        98%
+                    </div>
+                    <p class="text-slate-600">Satisfaction</p>
+                </div>
+
+                <div>
+                    <div class="text-3xl font-extrabold">
+                        250+
+                    </div>
+                    <p class="text-slate-600">comonenets</p>
+                </div>
+
+                <div>
+                    <div class="text-3xl font-extrabold">
+                        4.9
+                    </div>
+                    <p class="text-slate-600">Average Rating</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----fifth part-->
+    <section id="Services" class="py-16 sm:py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <div class="rounded-3xl overflow-hidden shadow-soft">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29ya2luZyUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                        class="w-full h-80 object-cover" />
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-3">Design build ship</h2>
+                    <p class="text-slate-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+                        inventore quasi cumque quae iste provident nam corrupti, animi autem maiores.</p>
+                    <div class="space-y-4">
+                        <div class="flex gap-4">
+                            <div class="h-10 w-10 rounded-xl bg-brand-100 grid place-items-center">A
+
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Product Strategy</h3>
+                                <p class="text-slate-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Fugit, numquam.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-4">
+                            <div class="h-10 w-10 rounded-xl bg-brand-100 grid place-items-center">B
+
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">UI UX Design</h3>
+                                <p class="text-slate-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Fugit, numquam.</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="flex gap-4">
+                            <div class="h-10 w-10 rounded-xl bg-brand-100 grid place-items-center">C
+
+                            </div>
+                            <div>
+                                <h3 class="font-semibold">Engineering</h3>
+                                <p class="text-slate-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Fugit, numquam.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <a href="#cta" class=" inline-block mt-4 px-4 py-2 rounded-lg border border-slate-300">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---sixth part-->
+    <section id="Gallery" class="py-16 bg-slate-50">
+        <div class="container px-4 mx-auto sm:px-6 lg:px-8">
+            <div class="flex items-end justify-between mb-8">
+                <div>
+                    <h2 class="text-3xl">ShowCase</h2>
+                    <p class="text-slate-600">A Quick Peak at what you can build</p>
+                </div>
+                <a href="#" class="text-brand-700 hover:underline">View All</a>
+
+            </div>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <img src="https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"
+                    alt="Gallery" class="rounded-2xl h-52 w-full object-cover" />
+
+                <img src="https://plus.unsplash.com/premium_photo-1661326248013-3107a4b2bd91?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dWklMjB1eHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Gallery" class="rounded-2xl h-52 w-full object-cover" />
+
+
+                <img src="https://images.unsplash.com/photo-1674027001834-719c347d1eca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2VvfGVufDB8fDB8fHww"
+                    alt="Gallery" class="rounded-2xl h-52 w-full object-cover" />
+
+
+                <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRpZ2l0YWwlMjBtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D"
+                    alt="Gallery" class="rounded-2xl h-52 w-full object-cover" />
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----seventh part-->
+    <section class="py-16 sm:py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-1 bg-gradient-to-br from-brand-600 to-brand-800 text-white rounded-3xl p-8">
+                    <h2 class="mb-3 text-3xl font-bold">Loved By Makers</h2>
+                    <p class="text-white/90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempore
+                        nostrum sed ipsa, labore quis!</p>
+                    <div class="mt-6 flex items-center gap-3">
+                        <img class="h-10 w-10 rounded-full"
+                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww"
+                            alt="" />
+                        <div>
+                            <div class="font-semibold">Avery Patel</div>
+                            <div class="text-sm text-white/80">Product lead,pixelware</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="lg:col-span-2 grid sm:grid-cols-2 gap-6">
+                    <div class="rounded-2xl border border-slate-200 p-6">
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sit.
+                        </p>
+                        <div class="text-sm mt-4 text-slate-500">Samir -k</div>
+                        <div></div>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 p-6">
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sit.
+                        </p>
+                        <div class="text-sm mt-4 text-slate-500">Samir -k</div>
+                        <div></div>
+                    </div>
+
+                    <div class="rounded-2xl border border-slate-200 p-6">
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sit.
+                        </p>
+                        <div class="text-sm mt-4 text-slate-500">Samir -k</div>
+                        <div></div>
+                    </div>
+                    <div class="rounded-2xl border border-slate-200 p-6">
+                        <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sit.
+                        </p>
+                        <div class="text-sm mt-4 text-slate-500">Samir -k</div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!---eight part---->
+    <section id="pricing" class="py-16 sm:py-20 bg-slate-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold">Simple,Transperent Pricing</h2>
+                <p class="text-slate-600">Choose a Plan Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid gap-6 lg:grid-cols-3">
+                <!--plan-->
+                <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+                    <div class="text-sm font-semibold text-brand-700">Stater</div>
+                    <div class="mt-3 text-4xl font-extrabold">$0</div>
+                    <p class="text-slate-600 mt-2">Lorem ipsum dolor sit amet.</p>
+                    <ul class="mt-4 space-y-4 text-sm text-slate-700">
+                        <li>. 10 Components</li>
+                        <li>. Community</li>
+                        <li>. MIT License</li>
+                    </ul>
+                    <a
+                        class="mt-6 inline-block w-full text-center rounded-lg border border-slate-300 hover:border-brand-600">Get
+                        Started</a>
+                </div>
+
+                <div class="rounded-2xl border-2 border-brand-600 p-6 bg-white relative">
+                    <span
+                        class="absolute -top-3 right-6 rounded-full bg-brand-600 text-white text-xs px-3 py-1">Popular</span>
+                    <div class="text-sm font-semibold text-brand-700">Pro</div>
+                    <div class="mt-3 text-4xl font-extrabold">$49</div>
+                    <p class="text-slate-600 mt-2">Lorem, ipsum dolor.</p>
+                    <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                        <li>. 10 Components</li>
+                        <li>. Community</li>
+                        <li>. MIT License</li>
+                    </ul>
+                    <a
+                        class="mt-6 py-2 inline-block w-full text-center rounded-lg text-white bg-brand-600 hover:border-brand-600">Buy
+                        Pro</a>
+                </div>
+
+
+                <div class="rounded-2xl border-2 border-slate-200 p-6 bg-white">
+                    <div></div>
+                    <div class="text-sm font-semibold text-brand-700">Terms</div>
+                    <div class="mt-3 text-4xl font-extrabold">$129</div>
+                    <p class="text-slate-600 mt-2">Lorem, ipsum dolor.</p>
+                    <ul class="mt-4 space-y-2 text-sm text-slate-700">
+                        <li>. 10 Components</li>
+                        <li>. Community</li>
+                        <li>. MIT License</li>
+                    </ul>
+                    <a
+                        class="mt-6 py-2 inline-block w-full text-center rounded-lg text-white bg-brand-600 hover:border-brand-600">Contact
+                        Sales</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!----nineth part-->
+    <section class="py-16 sm:py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold">Meet The Team</h2>
+                <p class="text-slate-500">Small But Mighty</p>
+            </div>
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <div class="rounded-2xl border border-slate-200 p-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww"
+                        class="h-20 w-20 rounded-full mx-auto object-cover" />
+                    <div class="mt-4 font-semibold">Riya Sharma</div>
+                    <div class="text-sm text-slate-500">Design Lead</div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                        class="h-20 w-20 rounded-full mx-auto object-cover" />
+                    <div class="mt-4 font-semibold">Roy Tailor</div>
+                    <div class="text-sm text-slate-500">Design Lead</div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D%3D"
+                        class="h-20 w-20 rounded-full mx-auto object-cover" />
+                    <div class="mt-4 font-semibold">Neha Sharma</div>
+                    <div class="text-sm text-slate-500">Design Lead</div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fHww"
+                        class="h-20 w-20 rounded-full mx-auto object-cover" />
+                    <div class="mt-4 font-semibold">Rohan Sharma</div>
+                    <div class="text-sm text-slate-500">Design Lead</div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <!---tenth part-->
+    <section id="cta" class="py-20 bg-gradient-to-br from-brand-600 to-brand-800 text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 items-center gap-8">
+                <div class="lg:col-span-2">
+                    <h2 class="text-4xl font-extrabold leading-tight">Ready To Build Something Great?</h2>
+                    <p class="mt-3 text-white/90">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolor
+                        omnis assumenda obcaecati reprehenderit vel aliquid molestiae cupiditate error consectetur.</p>
+
+                </div>
+                <div class="flex gap-3 lg:justify-end">
+                    <a class="px-5 py-3 rounded-xl bg-white text-slate-900 font-semibold">Start Free</a>
+                    <a class="px-5 py-3 rounded-xl bg-black/20 border border-white/30 font-semibold">See Pricing</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--contact part-->
+    <section id="contact" class="py-16 sm:py-20">
+        <div class="container mx-auto sm:px-6 lg:px-8 max-w-5xl">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="rounded-2xl border border-slate-200 p-6">
+                    <h3 class="text-xl font-semibold">Send us a Message</h3>
+                    <form class="mt-4 grid gap-4">
+                        <input class="w-full rounded-lg border border-slate-300 px-4 py-2" placeholder="Full Name" />
+
+                        <input class="w-full rounded-lg border border-slate-300 px-4 py-2" placeholder="Email" />
+                        <textarea class="w-full rounded-lg border border-slate-300 px-4 py-2"
+                            placeholder="Tell Us About your project"></textarea>
+                        <button class="rounded-lg bg-brand-600 text-white px-4 py-2" type="submit">Submit</button>
+
+                    </form>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 p-6">
+                    <h3 class="text-xl font-semibold">Visit Our Studio</h3>
+                    <p class="text-slate-600 mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <div class="mt-6 grid gap-4">
+                        <div class="flex gap-3 items-start">
+                            <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-100"><i
+                                    class="ri-phone-fill"></i></span>
+                            <div>
+                                <div class="font-medium">+91 6578987656</div>
+                                <div class="text-sm text-slate-600">Mon Fri, 9am IST</div>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 items-start">
+                            <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-100"><i
+                                    class="ri-mail-ai-line"></i></span>
+                            <div>
+                                <div class="font-medium">Hello @example.com</div>
+                                <div class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</div>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 items-start">
+                            <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-brand-100"><i
+                                    class="ri-edit-circle-line"></i></span>
+                            <div>
+                                <div class="font-medium">Support</div>
+                                <div class="text-sm text-slate-600">Lorem ipsum dolor sit amet consectetur.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---footer-->
+    <footer class="border-t border-slate-200 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+
+                <!-- Column 1 -->
+                <div>
+                    <a href="#" class="flex items-center gap-2 font-extrabold text-xl">
+                        <span
+                            class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">T</span>
+                        Tailwind 12 UI
+                    </a>
+                    <p class="text-slate-600 mt-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, eius?
+                    </p>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <div class="font-semibold mb-3">Product</div>
+                    <ul class="space-y-2 text-slate-600">
+                        <li><a href="#" class="hover:text-blue-600">Features</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Pricing</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Changelog</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Roadmap</a></li>
+                    </ul>
+                </div>
+
+                <!---column3-->
+                <div>
+                    <div class="font-semibold mb-3">Company</div>
+                    <ul class="space-y-2 text-slate-600">
+                        <li><a href="#" class="hover:text-blue-600">About</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Blogs</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Careers</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!--column 4-->
+                   <div>
+                    <div class="font-semibold mb-3">Legal</div>
+                    <ul class="space-y-2 text-slate-600">
+                        <li><a href="#" class="hover:text-blue-600">Terms</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Privacy</a></li>
+                        <li><a href="#" class="hover:text-blue-600">Licensing</a></li>
+                    
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+                <div>Tailwind 12 UI all rights reserved</div>
+                <div class="flex items-center gap-4">
+                    <a class="hover:text-slate-900" href="#">Twitter</a>
+                    <a class="hover:text-slate-900" href="#">Git Hub</a>
+                    <a class="hover:text-slate-900" href="#">Tribbled</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
